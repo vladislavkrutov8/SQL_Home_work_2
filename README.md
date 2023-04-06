@@ -2,8 +2,8 @@
 
 Используя операторы языка SQL, создайте табличку “sales”. Заполните ее данными
 
- DROP TABLE IF EXISTS sales;
- CREATE TABLE sales (
+ 	DROP TABLE IF EXISTS sales;
+	CREATE TABLE sales (
 	 id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE PRIMARY KEY,
 	 order_date DATE,
 	 count_product INT DEFAULT '0'
